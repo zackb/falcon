@@ -1,0 +1,61 @@
+ship "Millennium Falcon"
+	sprite "ship/falcon2"
+	attributes
+		category "Medium Warship"
+		"cost" 720000
+		"shields" 200000
+		"hull" 160000
+		"required crew" 3
+		"bunks" 5
+		"mass" 190
+		"drag" 2.4
+		"heat dissipation" .5
+		"fuel capacity" 4000
+		"cargo space" 640
+		"outfit space" 720
+		"weapon capacity" 400
+		"engine capacity" 800
+        "shield energy" 320
+        "shield generation" 320
+        "turret mounts" 5
+		"energy capacity" 10000
+		"energy generation" 200
+		weapon
+			"blast radius" 44
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 660
+	outfits
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Cargo Expansion"
+		"Cloaking Device"
+		"Cooling Ducts"
+		"Electron Beam"
+		Hyperdrive
+		"Jump Drive"
+		"Outfit Scanner"
+		"Pug Gridfire Turret" 3
+		"Sidewinder Missile Launcher"
+		"Small Reactor" 2
+		"Thermal Repeater" 2
+		"Tripulse Shredder"
+
+
+	# These coordinates are relative to the center of the image, and are in
+	# image pixels (which are scaled down to half a screen pixel when drawing).
+    gun -19.5 -163.5
+	gun 29.5 -162.5
+	gun 5.5 36.5
+	gun -105.5 -68.5
+	gun 113.5 11
+	gun -104 -2.5
+	turret 5.5 36.5
+	turret -96.5 81.5
+	turret 95.5 77
+	engine -59 157.5
+	engine 47.5 165.5
+	engine 3 173
+
+shipyard "Basic Ships"
+	"Millennium Falcon"
