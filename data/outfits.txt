@@ -1,0 +1,69 @@
+outfit "Omnipotence"
+    "burn protection" 1e19
+    "corrosion protection" 1e19
+    "discharge protection" 1e19
+    "disruption protection" 1e19
+    "energy protection" 1e19
+    "force protection" 1e19
+    "fuel protection" 1e19
+    "heat protection" 1e19
+    "hull protection" 1e19
+    "ion protection" 1e19
+    "leak protection" 1e19
+    "piercing protection" 1e19
+    "shield protection" 1e19
+    "slowing protection" 1e19
+    cloak 1e19
+    "cloaked communication" 1
+    "cloaked scanning" 1
+
+outfit "Omnipresence"
+    "jump drive" 1e19
+    "jump fuel" 1e-3
+    "jump range" 3e3
+    "jump speed" 1e19
+    "quantum keystone" 1e19
+    "scram drive" 1e19
+    gaslining 1e19
+    hyperdrive 1e19
+    "cloaked communication" 1
+    "cloaked scanning" 1
+
+outfit "Omniscience"
+    "asteroid scan power" 1e19
+    "cargo scan efficiency" 1e19
+    "cargo scan power" 1e19
+    "outfit scan efficiency" 1e19
+    "outfit scan power" 1e19
+    "tactical scan power" 1e19
+
+outfit "Disable"
+    "turret mounts" -1
+    weapon
+        icon "icon/flamethrower"
+        "turret turn" 36e1
+        "reload" 1
+        "lifetime" 1
+        "velocity" 1e4
+        "phasing"
+        "piercing" 1
+        "relative hull damage" .99
+        "relative disabled damage" 0
+
+outfit "Kill"
+    "turret mounts" -1
+    weapon
+        icon "icon/nuke"
+        "turret turn" 18e1
+        "reload" 1
+        "lifetime" 1
+        "velocity" 1e4
+        "phasing"
+        "piercing" 1
+        "relative hull damage" 1
+        "hit force" 1e4
+        "gravitational"
+outfit " Crux Stone "
+    "Omnis" 1e19
+    description "Enables use of the Omnis nexus wormholes."
+    thumbnail "outfit/cruxStone"

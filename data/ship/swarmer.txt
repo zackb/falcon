@@ -1,0 +1,55 @@
+ship "Swarmer"
+    sprite "ship/swarmer"
+    attributes
+        category "Medium Warship"
+        "cost" 720000
+        shields 1e19
+        hull 1e19
+        mass 1e4
+        "heat dissipation" 1666667e-5
+        drag 166652e-3
+        thrust 3e3
+        "reverse thrust" 3e3
+        turn 4e4
+        "fuel capacity" 1e6
+        "required crew" 1
+        bunks 1
+        "outfit space" 1e4
+        "weapon capacity" 1e4
+        "engine capacity" 1e4
+        "gun ports" 12
+        "drill port" 12
+        "drill spar" 12
+        "spinal mount" 12
+        "turret mounts" 12
+        "energy generation" 1666667e-2
+        "energy capacity" 1e6
+
+    outfits
+        Hyperdrive
+        "Jump Drive"
+        "Cloaking Device"
+        "Pug Seeker" 2
+        "Pug Zapper" 2
+        "Omnipotence"
+        "Omnipresence"
+        "Omniscience"
+        "Disable"
+        "Kill"
+        `Z-3600 "Beam" Amat Torch`
+
+    gun -145.5 -196.5
+    gun 147.5 -197.5
+    gun -35.5 -204
+    gun 36.5 -202.5
+    gun 0 -27.5
+    turret -152 -162.5 
+    turret 153 -162.5
+    turret -158.5 178.5
+    turret 159 179 "Disable"
+    engine 1 203.5 "Kill"
+    engine -159 177.5
+    engine 157.5 181
+
+shipyard "Basic Ships"
+    "Swarmer"
