@@ -1,5 +1,5 @@
-ship "Swarmer"
-    sprite "ship/swarmer"
+ship "Reaper"
+    sprite "ship/reaper"
     attributes
         category "Medium Warship"
         "cost" 720000
@@ -30,25 +30,36 @@ ship "Swarmer"
         "Jump Drive"
         "Cloaking Device"
         `Z-3600 "Beam" Amat Torch`
-        Sunbeam 2
         "Omnipotence"
         "Omnipresence"
         "Omniscience"
         "Disable"
         "Kill"
 
-    gun -145.5 -196.5
-    gun 147.5 -197.5
-    gun -35.5 -204
-    gun 36.5 -202.5
-    gun 0 -27.5
-    turret -152 -162.5 
-    turret 153 -162.5
-    turret -158.5 178.5 "Kill"
-    turret 159 179 "Disable"
-    engine 1 203.5
-    engine -159 177.5
-    engine 157.5 181
+    gun -73.5 -167.5
+    gun 74.5 -168
+    gun -79 18
+    gun -86.5 18
+    gun 79 17.5
+    gun 86.5 17
+    turret -73.5 -88.5 "Disable"
+    turret 74 -88 "Kill"
+    turret -74.5 -28
+    turret 75 -28
+    turret -83.5 77
+    turret 82 79.5
+    gun -115.5 -137.5
+    gun 117.5 -137.5
+    gun 108.5 -98
+    gun -108 -98.5
+    gun -16.5 -196
+    gun 18.5 -195.5
+    engine -81 174
+    engine 80.5 174.5
+    engine -35 198
+    engine -27.5 197.5
+    engine 28 199
+    engine 35 197.5
 
 shipyard "Basic Ships"
-    "Swarmer"
+    "Reaper"
